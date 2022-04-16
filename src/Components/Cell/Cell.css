@@ -1,0 +1,20 @@
+.cell {
+  height: 120px;
+  width: 120px;
+  background: black;
+  color: white;
+  font-size: 4rem;
+  display: grid;
+  place-content: center;
+}
+
+.cell:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .cell {
+    height: 100px;
+    width: 100px;
+  }
+}
